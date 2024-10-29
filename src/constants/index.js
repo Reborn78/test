@@ -90,27 +90,27 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
+    // {
+    //   name: "JavaScript",
+    //   icon: javascript,
+    // },
+    // {
+    //   name: "React JS",
+    //   icon: reactjs,
+    // },
 
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
  
     {
       name: "Three JS",
