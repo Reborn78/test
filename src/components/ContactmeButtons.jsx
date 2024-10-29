@@ -10,14 +10,14 @@ import { slideIn } from "../utils/motion";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, name, icon, link, target }) => (
-  <Tilt className='xs:w-[auto] w-full' options={{ max: 35, scale: 1, speed: 450 }}>
+  <Tilt className='xs:w-[auto] w-[auto]' options={{ max: 35, scale: 1, speed: 450 }}>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full '
     >
       <div
        
-        className='rounded-[20px] py-5 px-1 xs:px-3 sm:px-7 md:px-10 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='rounded-[20px] py-5 px-1 xs:px-3 sm:px-7 md:px-10 min-h-[280px] flex justify-normal sm:justify-evenly items-center flex-col'
       >
         <a href={link} target={target}>
     <img
@@ -42,7 +42,7 @@ const ContactmeButtons = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-[700px] md:h-[550px] h-[350px]'
+        className='xl:flex-1 xl:h-[700px] md:h-[550px] h-[250px]'
       >
           <div className="text-center ">
         <h1 className={`${styles.opecInfoText}`}>[ CONTACT ]</h1>
