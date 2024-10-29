@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     
-    <section className="relative flex flex-col justify-between items-center w-full h-screen ">
+    <section className="relative flex flex-col justify-center items-center w-full h-screen ">
     <div className="w-full h-[10vh] bg-black fixed top-0 z-10"></div> {/* Top black bar */}
     <div className="flex flex-col justify-center items-center flex-1 max-w-7xl mx-auto px-4">
-     <div className='mb-20'>
-      <h1 className={`${styles.heroHeadText} text-white text-center mt-20 `}>
+     <div className='mb-20 justify-center items-center text-center pl-7 '>
+      <h1 className={`${styles.heroHeadText} text-white text-center mt-20 inline-block `}>
         YELLO STUDIO
         {/* YELLO STUDIO <span className='text-[#915EFF]'>DESIGN</span> */}
       </h1>
@@ -36,3 +36,5 @@ const Hero = () => {
 }
 
 export default Hero
+
+
